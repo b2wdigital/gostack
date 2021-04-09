@@ -12,7 +12,3 @@ const (
 func init() {
 	config.Add(skip, false, "skip all triggers")
 }
-
-func SkipValue() bool {
-	return config.Bool(skip)
-}

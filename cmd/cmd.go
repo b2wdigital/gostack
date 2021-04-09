@@ -24,7 +24,7 @@ func Run(options fx.Option, c ...CmdFunc) error {
 		Long:  "",
 	}
 
-	if def := os.Getenv("DEFAULT_CMD"); def != "" {
+	if def := Default(); def != "" {
 		cmd, _, err := rootCmd.Find(os.Args[1:])
 		if err == nil && cmd.Use == rootCmd.Use {
 			args := append([]string{def}, os.Args[1:]...)
