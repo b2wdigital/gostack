@@ -8,7 +8,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/kinesis v1.2.2
 	github.com/aws/aws-sdk-go-v2/service/sns v1.2.2
 	github.com/aws/aws-sdk-go-v2/service/sqs v1.3.1
-	github.com/b2wdigital/goignite/v2 v2.0.0-alpha-20
+	github.com/b2wdigital/goignite/v2 v2.0.0-alpha-21
 	github.com/cloudevents/sdk-go/v2 v2.3.1
 	github.com/google/uuid v1.1.2
 	github.com/matryer/try v0.0.0-20161228173917-9ac251b645a2
