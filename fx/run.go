@@ -6,5 +6,5 @@ import (
 )
 
 func Run(options fx.Option) {
-	gifx.New(options).Run()
+	gifx.NewApp(options).Run()
 }

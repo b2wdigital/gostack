@@ -7,7 +7,7 @@ import (
 	"github.com/b2wdigital/goignite/v2/contrib/sirupsen/logrus.v1"
 	"github.com/b2wdigital/goignite/v2/core/config"
 	"github.com/b2wdigital/gostack/cloudevents"
-	"github.com/b2wdigital/gostack/cloudevents/ext/logger"
+	"github.com/b2wdigital/gostack/cloudevents/plugins/logger"
 	"github.com/b2wdigital/gostack/cmd"
 	v2 "github.com/cloudevents/sdk-go/v2"
 	"go.uber.org/fx"

@@ -12,7 +12,7 @@ import (
 	"github.com/b2wdigital/goignite/v2/core/config"
 	"github.com/b2wdigital/goignite/v2/core/log"
 	"github.com/b2wdigital/gostack/cloudevents"
-	"github.com/b2wdigital/gostack/cloudevents/ext/logger"
+	"github.com/b2wdigital/gostack/cloudevents/plugins/logger"
 	"github.com/b2wdigital/gostack/mocks"
 	v2 "github.com/cloudevents/sdk-go/v2"
 	"github.com/stretchr/testify/mock"

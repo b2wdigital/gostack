@@ -8,7 +8,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/kinesis v1.2.2
 	github.com/aws/aws-sdk-go-v2/service/sns v1.2.2
 	github.com/aws/aws-sdk-go-v2/service/sqs v1.3.1
-	github.com/b2wdigital/goignite/v2 v2.0.0-alpha-23
+	github.com/b2wdigital/goignite/v2 v2.0.0-alpha-27
 	github.com/cloudevents/sdk-go/v2 v2.3.1
 	github.com/google/uuid v1.1.2
 	github.com/matryer/try v0.0.0-20161228173917-9ac251b645a2
@@ -16,7 +16,7 @@ require (
 	github.com/nats-io/go-nats v1.7.2 // indirect
 	github.com/nats-io/nats-server v1.4.1
 	github.com/nats-io/nats.go v1.10.0
-	github.com/newrelic/go-agent/v3 v3.10.0
+	github.com/newrelic/go-agent/v3 v3.11.0
 	github.com/spf13/cobra v1.0.0
 	github.com/stretchr/testify v1.7.0
 	go.uber.org/fx v1.13.1
